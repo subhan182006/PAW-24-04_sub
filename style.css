@@ -1,0 +1,85 @@
+/* === Pengaturan Dasar & Font === */
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6; /* Sedikit menambah spasi antar baris agar lebih nyaman dibaca */
+    margin: 0;
+    padding: 0;
+}
+
+/* === Wadah Utama CV === */
+.cv {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #ffffff; /* Latar belakang putih lebih bersih dan profesional */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Efek bayangan lebih halus dan modern */
+}
+
+.header, .profile, .pendidikan, .skill, .tentang-saya {
+    margin-bottom: 25px;
+}
+
+.title {
+    color: #2c3e50; 
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.profile-singkat, .text-tentang, .riwayat, .list-skill {
+    color: #3498db;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+.isi-profile {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+img.pp {
+    width: 120px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #2c3e50; 
+}
+
+.list-profile, .list-skill {
+    list-style: none;
+    padding-left: 0;
+    margin: 0; 
+}
+
+.list-profile li, .list-skill li {
+    margin-bottom: 8px;
+}
+
+.riwayat-pendidikan {
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border-left: 3px solid #dfe6e9; 
+}
+
+.univ, .sma, .smp {
+    margin: 2px 0;
+}
+
+.skill-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill-category {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.tentang-saya p {
+    text-align: justify;
+}
